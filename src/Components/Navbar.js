@@ -73,6 +73,7 @@ const Navbar = () => {
       </Toolbar>
     </AppBar>
     <Drawer anchor ="right" open ={open} onClose={() => setOpen(false)} >
+       
       <IconButton  onClick= {() => setOpen(false)}className={classes.cancelicon}>
           <CancelIcon fontSize='large'/>
       </IconButton >
@@ -167,10 +168,11 @@ const useStyles = makeStyles((theme) =>({
             width:"60vw",
         },
         "& h5":{
-            margin: theme.spacing(8,0,0,4),
+            margin: theme.spacing(10,0,0,4),
             fontSize:"1.4rem",
             color:"#333",
             fontWeight:"bold",
+            marginLeft:"1rem"
         },
         "& h5:hover":{
             color:"tomato",

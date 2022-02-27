@@ -15,14 +15,14 @@ const About = ({title,dark, id}) => {
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
             text="Hola, mi nombre es Rodrigo Guevara Civit"
-            textStyle={{fontSize:"2rem", fontWeight:"700px", color:"tomato"}}
+            textStyle={{fontSize:"4rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"
             typeSpeed={100}
             />
              <TypeWriterEffect
             text=" Fullstack Web Developer"
-            textStyle={{fontSize:"1.2rem", fontWeight:"500px"}}
+            textStyle={{fontSize:"1.6rem", fontWeight:"500px"}}
             startDelay={5000}
             cursorColor="white"
             typeSpeed={100}
@@ -91,8 +91,11 @@ const useStyles = makeStyles((theme) =>({
     
     cardcontent:{
       marginTop: theme.spacing(1.2),
+      margin:"0",
+      
       "& h6":{
         marginTop:theme.spacing(6),
+        fontSize:"2.2rem",
         [theme.breakpoints.down("sm")]:{
           display:"none",
         },
@@ -103,7 +106,7 @@ const useStyles = makeStyles((theme) =>({
       bottom:"1rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"1rem",
+        bottom:"0rem",
         right:"1rem",
       },
       backgroundColor:"tomato",

@@ -1,4 +1,5 @@
 import shareit from './images/shareit.jpeg'
+import videogames from './images/videogames2.jpeg'
 
 
 
@@ -10,6 +11,7 @@ const mockData =[
     },
     {
         title:"Proyecto Videogames",
+        image:videogames,
 
         
     },
