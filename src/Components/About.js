@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme) =>({
     },
     pdfbutton:{
       position:"absolute",
-      bottom:"5rem",
+      bottom:"1rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
         bottom:"1rem",
