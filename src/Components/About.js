@@ -15,7 +15,7 @@ const About = ({title,dark, id}) => {
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
             text="Hola, mi nombre es Rodrigo Guevara Civit"
-            textStyle={{fontSize:"3rem", fontWeight:"700px", color:"tomato"}}
+            textStyle={{fontSize:"2 rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"
             typeSpeed={100}
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) =>({
       
       "& h6":{
         marginTop:theme.spacing(6),
-        fontSize:"2.2rem",
+        fontSize:"1.5rem",
         [theme.breakpoints.down("sm")]:{
           display:"none",
         },
