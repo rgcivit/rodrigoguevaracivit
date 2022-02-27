@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(15)
+        marginLeft: theme.spacing(11)
       },
       github:{
         width:"40px",
@@ -147,7 +147,7 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(11)
+        marginLeft: theme.spacing(8)
       },
     media3:{
         width:"60px",
