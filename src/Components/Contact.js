@@ -133,7 +133,7 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(11)
+        marginLeft: theme.spacing(6)
       },
       github:{
         width:"40px",
