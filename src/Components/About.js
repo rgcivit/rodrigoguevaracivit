@@ -15,31 +15,28 @@ const About = ({title,dark, id}) => {
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
             text="Hola, mi nombre es Rodrigo Guevara Civit"
-            textStyle={{fontSize:"4rem", fontWeight:"700px", color:"tomato"}}
+            textStyle={{fontSize:"3rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"
             typeSpeed={100}
             />
              <TypeWriterEffect
             text=" Fullstack Web Developer"
-            textStyle={{fontSize:"1.6rem", fontWeight:"500px"}}
+            textStyle={{fontSize:"1.3rem", fontWeight:"500px"}}
             startDelay={5000}
             cursorColor="white"
             typeSpeed={100}
             />
             <Typography variant="h6" color="textSecondary">
-            Soy Full Stack Web Developer,
-            puedo trabajar con las siguientes
-            tecnologías: React, Redux
-            ,Express , Sequelize, CSS, HTML y
-            Postgres. Me siento capacitado
-            para desarrollar proyectos en
-            grupo o individualmente.
-            Me considero una persona
+            Puedo trabajar con las siguientes
+            tecnologías: JavaScript, React, Redux
+            ,SQL , Node, CSS y HTML. 
+            Me siento capacitado
+            para desarrollar proyectos en equipo,
+            me considero una persona
             proactiva, siempre con ganas de
-            seguir aprendiendo nuevas
-            tecnologías. Me gusta mucho trabajar en grupo y poder
-            aprender lo que mi equipo puede aportarme, como así también 
+            seguir aprendiendo. Me gusta  
+            aprender lo que mi equipo pueda aportarme, como así también 
             poder aportar mis conocimientos.
             </Typography>
           </CardContent>
