@@ -104,6 +104,7 @@ const useStyles = makeStyles((theme) =>({
     },
     root2:{
       height:"10vh",
+      width:"48vh",
       background:"white",
       display:"flex",
       objectFit:"cover",
