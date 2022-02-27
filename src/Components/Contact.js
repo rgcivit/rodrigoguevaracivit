@@ -104,7 +104,7 @@ const useStyles = makeStyles((theme) =>({
     },
     root2:{
       height:"10vh",
-      background:"tomato",
+      background:"white",
       display:"flex",
       objectFit:"cover",
       marginTop: theme.spacing(6),
@@ -140,7 +140,7 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(2),
-        marginLeft: theme.spacing(2)
+        marginLeft: theme.spacing(1)
       },
       whatsapp:{
         width:"50px",
