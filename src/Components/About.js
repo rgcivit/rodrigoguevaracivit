@@ -103,7 +103,7 @@ const useStyles = makeStyles((theme) =>({
       bottom:"5rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"2rem",
+        bottom:"1rem",
         right:"1rem",
       },
       backgroundColor:"tomato",
