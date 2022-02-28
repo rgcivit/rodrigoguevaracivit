@@ -104,9 +104,9 @@ const useStyles = makeStyles((theme) =>({
     },
     root2:{
       height:"10vh",
-      width:"48vh",
       background:"white",
       display:"flex",
+      justifyContent:"space-between",
       objectFit:"cover",
       marginTop: theme.spacing(6),
       position:"relative",
