@@ -68,12 +68,12 @@ const useStyles = makeStyles((theme) =>({
        color: "#fff",
     },
     sectioncontent:{
-      maxWidth:"60vw",
+      maxWidth:"85vw",
       margin:"0 auto",
    
     },
     card:{
-      height:"70vh",
+      height:"100vh",
       display:"flex",
       objectFit:"cover",
       marginTop: theme.spacing(6),
