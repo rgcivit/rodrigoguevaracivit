@@ -60,7 +60,7 @@ const About = ({title,dark, id}) => {
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
-    
+     
       
     },
     sectiondark: {
@@ -68,13 +68,12 @@ const useStyles = makeStyles((theme) =>({
        color: "#fff",
     },
     sectioncontent:{
-      maxWidth:"85vw",
+      maxWidth:"70vw",
       margin:"0 auto",
    
     },
     card:{
       height:"70vh",
-      minWidth:"100vh",
       display:"flex",
       objectFit:"cover",
       marginTop: theme.spacing(6),
