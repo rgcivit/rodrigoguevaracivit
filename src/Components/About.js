@@ -73,7 +73,8 @@ const useStyles = makeStyles((theme) =>({
    
     },
     card:{
-      height:"100vh",
+      height:"70vh",
+      minWidth:"100vh",
       display:"flex",
       objectFit:"cover",
       marginTop: theme.spacing(6),
