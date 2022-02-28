@@ -15,6 +15,18 @@ const mockData =[
 
         
     },
+    {
+        title:"BreakingBad",
+        image:videogames,
+
+        
+    },
+    {
+        title:"Dogs",
+        image:videogames,
+
+        
+    },
     
 ]
 

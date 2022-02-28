@@ -103,7 +103,7 @@ const useStyles = makeStyles((theme) =>({
       }
     },
     root2:{
-      maxHeight:"15vh",
+      maxHeight:"16vh",
       background:"white",
       display:"flex",
       justifyContent:"space-between",

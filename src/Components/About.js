@@ -60,6 +60,7 @@ const About = ({title,dark, id}) => {
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
+       minWidth:"100vh"
       
     },
     sectiondark: {
@@ -121,6 +122,7 @@ const useStyles = makeStyles((theme) =>({
         color:"tomato"
       }
     },
+   
   }))
 
 export default About
