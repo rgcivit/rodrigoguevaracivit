@@ -87,7 +87,7 @@ const Navbar = () => {
                      activeClass="active"
                      soomth={true} 
                      duration={500}
-                     offset={-90}>
+                     offset={-70}>
                      <ListItem component="h5">
                          <span> 
                              <ListItemIcon>

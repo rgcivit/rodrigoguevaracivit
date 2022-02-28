@@ -15,7 +15,7 @@ const About = ({title,dark, id}) => {
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
             text="Hola, mi nombre es Rodrigo Guevara Civit"
-            textStyle={{fontSize:"2 rem", fontWeight:"700px", color:"tomato"}}
+            textStyle={{fontSize:"1.6 rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"
             typeSpeed={100}
@@ -60,16 +60,24 @@ const About = ({title,dark, id}) => {
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
+       margin:"0 auto"
      
       
     },
     sectiondark: {
        background: "#333",
        color: "#fff",
+       fontFamily:"bold",
+       "& h3":{
+        fontSize:"1.6",
+        fontFamily:"Times New Roman",
+        
+      }
     },
     sectioncontent:{
       maxWidth:"70vw",
       margin:"0 auto",
+      
    
     },
     card:{
@@ -93,7 +101,7 @@ const useStyles = makeStyles((theme) =>({
       
       "& h6":{
         marginTop:theme.spacing(6),
-        fontSize:"1.5rem",
+        fontSize:"1.3rem",
         [theme.breakpoints.down("sm")]:{
           display:"none",
         },
