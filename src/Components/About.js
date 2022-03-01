@@ -71,6 +71,7 @@ const useStyles = makeStyles((theme) =>({
        "& h3":{
         fontSize:"1.6",
         fontFamily:"Times New Roman",
+        borderBottom:"2px solid black "
         
       }
     },
@@ -89,7 +90,7 @@ const useStyles = makeStyles((theme) =>({
 
     },
     media:{
-      width:"1000px",
+      width:"250px",
       height:"auto",
       borderRadius:"10px",
       margin: theme.spacing(4)

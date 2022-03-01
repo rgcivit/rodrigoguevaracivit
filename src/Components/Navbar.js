@@ -21,7 +21,7 @@ const Navbar = () => {
         {
             id:"about",
             text:"Acerca de mi",
-            icon:<InfoTwoToneIcon fontSize='large'/>
+            icon:<InfoTwoToneIcon fontSize='large'className={classes.aboutIcon}/>
         },
         {
           id:"skills",
@@ -31,12 +31,12 @@ const Navbar = () => {
       {
           id:"work",
           text:"Mis Proyectos",
-          icon:<BuildTwoToneIcon fontSize='large'/>
+          icon:<BuildTwoToneIcon fontSize='large'className={classes.proyectIcon}/>
       },
       {
           id:"contact",
           text:"Contacto",
-          icon:<ContactMailTwoToneIcon fontSize='large'/>
+          icon:<ContactMailTwoToneIcon fontSize='large'className={classes.contactIcon}/>
       },
       ]
       const scrollToTop =()=>{
@@ -87,7 +87,7 @@ const Navbar = () => {
                      activeClass="active"
                      soomth={true} 
                      duration={500}
-                     offset={-70}>
+                     offset={-90}>
                      <ListItem component="h5">
                          <span> 
                              <ListItemIcon>
@@ -130,13 +130,16 @@ const useStyles = makeStyles((theme) =>({
     },
     menu:{
         [theme.breakpoints.down("sm")]:{
-            display:"none"
+            display:"none",
+           
         },
         "& a":{
             color:"#333",
             fontSize: "1.4rem",
             fontWeight: "bold",
-            marginLeft: theme.spacing(3)
+            marginLeft: theme.spacing(3),
+            
+
 
         },
         "& a:hover": {
@@ -165,7 +168,7 @@ const useStyles = makeStyles((theme) =>({
     sidebar:{
         width: "40vw",
         [theme.breakpoints.down("sm")]:{
-            width:"60vw",
+            width:"110vw",
         },
         "& h5":{
             margin: theme.spacing(10,0,0,4),
@@ -179,6 +182,15 @@ const useStyles = makeStyles((theme) =>({
             cursor:"pointer"
         }
     },
+    aboutIcon:{
+        color:"green",
+    },
+    proyectIcon:{
+        color:"blue",
+    },
+    contactIcon:{
+        color:"tomato",
+    }
    
   }))
 
