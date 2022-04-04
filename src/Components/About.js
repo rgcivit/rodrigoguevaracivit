@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) =>({
     sectioncontent:{
       maxWidth:"80vw",
       margin:"0 auto",
-      & h3{
+     " & h3":{
       [theme.breakpoints.down("sm")]:{
         fontSize:"1.5rem",
       },
