@@ -74,7 +74,7 @@ const useStyles = makeStyles((theme) =>({
       margin:"0 auto",
      " & h3":{
       [theme.breakpoints.down("sm")]:{
-        fontSize:"300px",
+        fontSize:"700px",
       },
    
      }
