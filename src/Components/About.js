@@ -77,6 +77,7 @@ const useStyles = makeStyles((theme) =>({
         fontSize:"1rem",
       },
    
+     }
     },
     card:{
       height:"70vh",
