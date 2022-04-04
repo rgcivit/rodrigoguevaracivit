@@ -103,10 +103,9 @@ const useStyles = makeStyles((theme) =>({
       }
     },
     root2:{
-      maxHeight:"16vh",
-      background:"white",
+      height:"10vh",
+      background:"tomato",
       display:"flex",
-      justifyContent:"space-between",
       objectFit:"cover",
       marginTop: theme.spacing(6),
       position:"relative",
@@ -134,21 +133,21 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(6)
+        marginLeft: theme.spacing(15)
       },
       github:{
         width:"40px",
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(2),
-        marginLeft: theme.spacing(1)
+        marginLeft: theme.spacing(2)
       },
       whatsapp:{
         width:"50px",
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(8)
+        marginLeft: theme.spacing(11)
       },
     media3:{
         width:"60px",

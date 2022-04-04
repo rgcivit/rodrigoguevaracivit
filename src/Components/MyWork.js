@@ -10,7 +10,7 @@ const MyWork = ({title,dark, id}) => {
        <Grid container className={classes.grid}>
          {
            mockData.map(({title, image, link},index)=>(
-             <Grid item key={index} xs={8} sm={2} md={4}>
+             <Grid item key={index} xs={8} sm={6} md={4}>
                <Card className={classes.card}>
                  <CardMedia image={image} className={classes.caratula} titulo='caratula'/>
                  <CardContent>
@@ -53,14 +53,12 @@ const useStyles = makeStyles((theme) =>({
     minHeight: 275,
     margin: theme.spacing(3),
     
-    
-    
 
    
 
   },
   caratula:{
-    height:50,
+    height:60,
     paddingTop: '100%',
   }
 }))

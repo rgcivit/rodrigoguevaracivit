@@ -15,28 +15,31 @@ const About = ({title,dark, id}) => {
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
             text="Hola, mi nombre es Rodrigo Guevara Civit"
-            textStyle={{fontSize:"1.6 rem", fontWeight:"700px", color:"tomato"}}
+            textStyle={{fontSize:"2rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"
             typeSpeed={100}
             />
              <TypeWriterEffect
             text=" Fullstack Web Developer"
-            textStyle={{fontSize:"1.3rem", fontWeight:"500px"}}
+            textStyle={{fontSize:"1.2rem", fontWeight:"500px"}}
             startDelay={5000}
             cursorColor="white"
             typeSpeed={100}
             />
             <Typography variant="h6" color="textSecondary">
-            Puedo trabajar con las siguientes
-            tecnologías: JavaScript, React, Redux
-            ,SQL , Node, CSS y HTML. 
-            Me siento capacitado
-            para desarrollar proyectos en equipo,
-            me considero una persona
+            Soy Full Stack Web Developer,
+            puedo trabajar con las siguientes
+            tecnologías: React, Redux
+            ,Express , Sequelize, CSS, HTML y
+            Postgres. Me siento capacitado
+            para desarrollar proyectos en
+            grupo o individualmente.
+            Me considero una persona
             proactiva, siempre con ganas de
-            seguir aprendiendo. Me gusta  
-            aprender lo que mi equipo pueda aportarme, como así también 
+            seguir aprendiendo nuevas
+            tecnologías. Me gusta mucho trabajar en grupo y poder
+            aprender lo que mi equipo puede aportarme, como así también 
             poder aportar mis conocimientos.
             </Typography>
           </CardContent>
@@ -60,25 +63,19 @@ const About = ({title,dark, id}) => {
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
-       margin:"0 auto"
-     
       
     },
     sectiondark: {
        background: "#333",
        color: "#fff",
-       fontFamily:"bold",
-       "& h3":{
-        fontSize:"1.6",
-        fontFamily:"Times New Roman",
-        borderBottom:"2px solid black "
-        
-      }
     },
     sectioncontent:{
-      maxWidth:"70vw",
+      maxWidth:"80vw",
       margin:"0 auto",
-      
+      & h3{
+      [theme.breakpoints.down("sm")]:{
+        fontSize:"1.5rem",
+      },
    
     },
     card:{
@@ -90,7 +87,7 @@ const useStyles = makeStyles((theme) =>({
 
     },
     media:{
-      width:"250px",
+      width:"1000px",
       height:"auto",
       borderRadius:"10px",
       margin: theme.spacing(4)
@@ -98,11 +95,10 @@ const useStyles = makeStyles((theme) =>({
     
     cardcontent:{
       marginTop: theme.spacing(1.2),
-      margin:"0",
-      
+     
       "& h6":{
         marginTop:theme.spacing(6),
-        fontSize:"1.3rem",
+        fontSize:"1.1rem",
         [theme.breakpoints.down("sm")]:{
           display:"none",
         },
@@ -110,10 +106,10 @@ const useStyles = makeStyles((theme) =>({
     },
     pdfbutton:{
       position:"absolute",
-      bottom:"1rem",
+      bottom:"0.15rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"0rem",
+        bottom:"2rem",
         right:"1rem",
       },
       backgroundColor:"tomato",
@@ -131,7 +127,6 @@ const useStyles = makeStyles((theme) =>({
         color:"tomato"
       }
     },
-   
   }))
 
 export default About
