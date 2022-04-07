@@ -47,7 +47,7 @@ const Navbar = () => {
     <AppBar position='sticky' className={classes.root}>
       <Toolbar className={classes.toolbar}>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
-          <img style={{height:'30px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
+          <img style={{height:'50px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
             RGC
           </Typography>
 
