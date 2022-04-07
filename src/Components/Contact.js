@@ -139,7 +139,7 @@ const useStyles = makeStyles((theme) =>({
         margin: theme.spacing(1),
         marginLeft: theme.spacing(15),
         [theme.breakpoints.down('sm')]: {
-          marginLeft: theme.spacing(7),
+          marginLeft: theme.spacing(4.5),
           marginTop: theme.spacing(0),
       }
     },
@@ -151,6 +151,7 @@ const useStyles = makeStyles((theme) =>({
         marginLeft: theme.spacing(2),
         [theme.breakpoints.down('sm')]: {
           marginTop: theme.spacing(1),
+          marginLeft: theme.spacing(1),
       }
     },
       whatsapp:{
@@ -161,6 +162,7 @@ const useStyles = makeStyles((theme) =>({
         marginLeft: theme.spacing(11),
         [theme.breakpoints.down('sm')]: {
           marginTop: theme.spacing(0),
+          marginLeft: theme.spacing(6),
       }
     },
     media3:{
