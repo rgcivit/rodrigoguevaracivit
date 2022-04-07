@@ -1,6 +1,6 @@
 
 import {AppBar, IconButton, List, makeStyles, Toolbar,Drawer, Divider,ListItem, ListItemIcon} from '@material-ui/core'
-import fullstack2 from "../images/fullstack2.jpg"
+import rgclogo from "../images/rgclogo.png"
 import {Link,animateScroll as scroll} from "react-scroll"
 import  InfoTwoToneIcon  from '@material-ui/icons/InfoTwoTone'
 import  EmojiObjectsTwoToneIcon  from '@material-ui/icons/EmojiObjectsTwoTone'
@@ -46,7 +46,7 @@ const Navbar = () => {
       <>
     <AppBar position='sticky' className={classes.root}>
       <Toolbar className={classes.toolbar}>
-        <img src= {fullstack2} 
+        <img src= {rgclogo} 
         className ={classes.logo} 
         alt="Logo"
         onClick={scrollToTop}

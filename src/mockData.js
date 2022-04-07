@@ -1,4 +1,5 @@
 import shareit from './images/shareit.jpeg'
+import videogames2 from './images/videogames2.jpeg'
 
 
 
@@ -10,7 +11,8 @@ const mockData =[
     },
     {
         title:"Proyecto Videogames",
-
+        image:videogames2,
+        link:"https://pi-videogames-five.vercel.app/Home"
         
     },
     
