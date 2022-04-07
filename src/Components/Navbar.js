@@ -46,7 +46,7 @@ const Navbar = () => {
       <>
     <AppBar position='sticky' className={classes.root}>
       <Toolbar className={classes.toolbar}>
-        <Typography component='div' sx={{flexGrow:1}}>
+        <Typography  sx={{flexGrow:1}}>
         <img  src= {rgclogo} 
         className ={classes.logo} 
         alt="Logo"
