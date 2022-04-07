@@ -46,13 +46,11 @@ const Navbar = () => {
       <>
     <AppBar position='sticky' className={classes.root}>
       <Toolbar className={classes.toolbar}>
-        <Typography  sx={{flexGrow:1}}>
-        <img  src= {rgclogo} 
-        className ={classes.logo} 
-        alt="Logo"
-        onClick={scrollToTop}
-        />
-        </Typography>
+      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
+          <img style={{height:'30px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
+            RGC
+          </Typography>
+
         <List className={classes.menu}>
             {
                 links.map(({id,text}, index) =>(
