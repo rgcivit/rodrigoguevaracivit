@@ -109,7 +109,11 @@ const useStyles = makeStyles((theme) =>({
       objectFit:"cover",
       marginTop: theme.spacing(6),
       position:"relative",
-    },
+     [theme.breakpoints.down('sm')]: {
+      marginTop: theme.spacing(4),
+      maxWidth:"100%",
+  }
+},
     sectioncontent:{
       maxWidth:"70vw",
         
@@ -133,22 +137,32 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(15)
-      },
+        marginLeft: theme.spacing(15),
+        [theme.breakpoints.down('sm')]: {
+          marginLeft: theme.spacing(7),
+          marginTop: theme.spacing(0),
+      }
+    },
       github:{
         width:"40px",
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(2),
-        marginLeft: theme.spacing(2)
-      },
+        marginLeft: theme.spacing(2),
+        [theme.breakpoints.down('sm')]: {
+          marginTop: theme.spacing(1),
+      }
+    },
       whatsapp:{
         width:"50px",
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginLeft: theme.spacing(11)
-      },
+        marginLeft: theme.spacing(11),
+        [theme.breakpoints.down('sm')]: {
+          marginTop: theme.spacing(0),
+      }
+    },
     media3:{
         width:"60px",
         height:"auto",
