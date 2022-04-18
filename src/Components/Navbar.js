@@ -64,8 +64,7 @@ const Navbar = () => {
                      {text}</Link>
                 ))
             }
-        </List>
-        {
+              {
         linksNav?.map(({ id, text, icon }, index)=> (
           <Link className={classes.linksDrawer}
             key={index} to={id} spy={true} activeClass="active" smooth={true} duration={750} offset={-60}
@@ -81,6 +80,8 @@ const Navbar = () => {
           </Link>
         ))
       }
+        </List>
+      
         <IconButton edge="end" 
         className={classes.menubutton}
         onClick={() => setOpen(!open)}>
