@@ -65,7 +65,7 @@ const Navbar = () => {
                 ))
             }
               {
-        linksNav?.map(({ id, text, icon }, index)=> (
+        links?.map(({ id, text, icon }, index)=> (
           <Link className={classes.linksDrawer}
             key={index} to={id} spy={true} activeClass="active" smooth={true} duration={750} offset={-60}
             onClick={() => setOpen(!open)} >
