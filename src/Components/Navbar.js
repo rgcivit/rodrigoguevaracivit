@@ -21,7 +21,7 @@ const Navbar = () => {
         {
             id:"about",
             text:"Acerca de mi",
-            icon:<InfoTwoToneIcon fontSize='large'/>
+            icon:<InfoTwoToneIcon fontSize='large' className={classes.about}/>
         },
         {
           id:"skills",
@@ -31,12 +31,12 @@ const Navbar = () => {
       {
           id:"work",
           text:"Mis Proyectos",
-          icon:<BuildTwoToneIcon fontSize='large'/>
+          icon:<BuildTwoToneIcon fontSize='large' className={classes.work} />
       },
       {
           id:"contact",
           text:"Contacto",
-          icon:<ContactMailTwoToneIcon fontSize='large'/>
+          icon:<ContactMailTwoToneIcon fontSize='large'className={classes.contact} />
       },
       ]
       const scrollToTop =()=>{
@@ -133,6 +133,15 @@ const useStyles = makeStyles((theme) =>({
     },
     ligth:{
         color:"#ffcc00",
+    },
+    about:{
+        color:"blue"
+    },
+    work:{
+        color:"green"
+    },
+    contact:{
+        color:"red"
     },
     menu:{
         [theme.breakpoints.down("sm")]:{
