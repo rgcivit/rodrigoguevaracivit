@@ -65,6 +65,22 @@ const Navbar = () => {
                 ))
             }
         </List>
+        {
+        linksNav?.map(({ id, text, icon }, index)=> (
+          <Link className={classes.linksDrawer}
+            key={index} to={id} spy={true} activeClass="active" smooth={true} duration={750} offset={-60}
+            onClick={() => setOpen(!open)} >
+            
+            <ListItem component='h4' >
+              <span>
+                <ListItemIcon >
+                  {icon}
+                </ListItemIcon>
+              </span>{text}
+            </ListItem>
+          </Link>
+        ))
+      }
         <IconButton edge="end" 
         className={classes.menubutton}
         onClick={() => setOpen(!open)}>
