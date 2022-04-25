@@ -158,10 +158,10 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
-        marginTop:theme.spacing(0),
+        marginTop:theme.spacing(0.5),
         marginLeft: theme.spacing(15),
         [theme.breakpoints.down('sm')]: {
-          marginLeft: theme.spacing(5),
+          marginLeft: theme.spacing(8),
           marginTop: theme.spacing(0),
         
       }
