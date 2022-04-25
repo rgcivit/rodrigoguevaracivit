@@ -47,7 +47,7 @@ const Navbar = () => {
     <AppBar position='sticky' className={classes.root}>
       <Toolbar className={classes.toolbar}>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
-          <img style={{height:'70px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
+          <img style={{height:'80px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
             RGC
           </Typography>
 
@@ -90,7 +90,7 @@ const Navbar = () => {
                      activeClass="active"
                      soomth={true} 
                      duration={500}
-                     offset={-90}
+                     offset={-80}
                      onClick={() => setOpen(!open)} >
                      <ListItem component="h5">
                          <span> 
@@ -135,7 +135,8 @@ const useStyles = makeStyles((theme) =>({
         color:"#ffcc00",
     },
     about:{
-        color:"blue"
+        color:"blue",
+        
     },
     work:{
         color:"green"
@@ -144,6 +145,7 @@ const useStyles = makeStyles((theme) =>({
         color:"red"
     },
     menu:{
+        
         [theme.breakpoints.down("sm")]:{
             display:"none"
         },

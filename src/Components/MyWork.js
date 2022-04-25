@@ -10,7 +10,7 @@ const MyWork = ({title,dark, id}) => {
        <Grid container className={classes.grid}>
          {
            mockData.map(({title, image, link},index)=>(
-             <Grid item key={index} xs={12} sm={6} md={8}>
+             <Grid item key={index} xs={8} sm={4} md={6}>
                <Card className={classes.card}>
                  <CardMedia image={image} className={classes.caratula} titulo='caratula'/>
                  <CardContent>

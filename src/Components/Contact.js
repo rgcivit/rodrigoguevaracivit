@@ -1,18 +1,30 @@
-import { Button, Card, CardMedia, Grid, Link, makeStyles,Paper,Radio, TextField, Typography } from '@material-ui/core';
+import { Button, Card, CardMedia, Grid, Link, makeStyles,Paper,Radio, TextField,Input
+, Typography } from '@material-ui/core';
 import { purple } from '@material-ui/core/colors';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import emailjs from 'emailjs-com';
 
 import React, { useState } from 'react'
 
 
+
+
 const Contact = ({title,dark, id}) => {
   const classes =useStyles();
- 
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm('service_6j1wnzj', 'template_ri0w178', e.target, 'T74a96cFKIlGJM5L9')
+    .then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+    e.target.reset();
+  }
+  
   return (
-    
-    
     
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
      <div className={classes.sectioncontent} id={id}>
@@ -42,30 +54,33 @@ const Contact = ({title,dark, id}) => {
                 
         </div>
           </div>
-          <form className = {classes.form}>
+          <form  onSubmit={sendEmail} className = {classes.form}>
             <Grid>
             <Grid className={classes.grid}  >
-            <TextField label="Tu nombre" placeholder='Ingresa tu primer nombre'variant='standard'fullWidth required/>
+            <TextField label="Subject" placeholder='Ingresa tu primer nombre'variant='standard' name='subject' fullWidth required/>
             </Grid>
             <Grid className={classes.grid}  >
-            <TextField label="Tu apellido" placeholder='Ingresa tu apellido'variant='standard'fullWidth required/>
+            <TextField label="Tu nombre" placeholder='Ingresa tu primer nombre'variant='standard' name='name' fullWidth required/>
+            </Grid>
+            <Grid className={classes.grid}  >
+            <TextField label="Tu apellido" placeholder='Ingresa tu apellido'variant='standard' name='lastname' fullWidth required/>
             </Grid>
             <Grid className={classes.grid}>
-            <TextField type='email' label="Tu e-mail" placeholder='Ingresa tu mail'variant='standard'fullWidth required/>
+            <TextField type='email' label="Tu e-mail" placeholder='Ingresa tu mail'variant='standard'name='email' fullWidth required/>
             </Grid>
             <Grid className={classes.grid}>
-            <TextField label="Escribe un mensaje" multiline rows={8} placeholder='escribe tu mensaje'variant='outlined'fullWidth required/>
+            <TextField label="Escribe un mensaje" multiline rows={8} placeholder='escribe tu mensaje'variant='outlined' name='message' fullWidth required/>
             </Grid>
             </Grid>
-            <Grid >
-              <Button type='submit' variant="contained" component="a" href="mailto:rgcivitt@gmail.com" fullWidth>Submit</Button>
+            <Grid className={classes.button} >
+              <button type='submit'  value='send Message'>Submit</button>
             </Grid>
           </form>
        </Paper>
      </div>
   </div>
   )
-}
+  }
 
 const useStyles = makeStyles((theme) =>({
     section:{
@@ -137,6 +152,7 @@ const useStyles = makeStyles((theme) =>({
         height:"auto",
         borderRadius:"15px",
         margin: theme.spacing(1),
+        marginTop:theme.spacing(0),
         marginLeft: theme.spacing(15),
         [theme.breakpoints.down('sm')]: {
           marginLeft: theme.spacing(4.5),
@@ -179,6 +195,19 @@ const useStyles = makeStyles((theme) =>({
       marginBottom: theme.spacing(1),
       display:"flex",
       
+    },
+    button:{
+      display:"flex",
+      justifyContent:'center',
+      marginTop: theme.spacing(2),
+      "& button":{
+        backgroundColor:"white",
+        color:"tomato",
+        fontWeight:900,
+        fontSize:"1.6rem",
+        fontFamily: "cursive",
+        padding:theme.spacing(1),
+      },
     }
     
   }))

@@ -1,0 +1,31 @@
+   <Paper className= {classes.root}>
+          <div className={classes.titleandchoices}>
+       <Typography variant ="h5">PUEDES CONTACTARME</Typography>
+       <div className ={classes.choices}>
+         <Typography color='textSecondary'variant ="body2" component="p"> Envíame un mail</Typography>
+                
+        </div>
+          </div>
+          <form className = {classes.form}>
+            <Grid>
+            <Grid className={classes.grid}  >
+            <TextField label="Tu nombre" placeholder='Ingresa tu primer nombre'variant='standard'fullWidth required/>
+            </Grid>
+            <Grid className={classes.grid}  >
+            <TextField label="Tu apellido" placeholder='Ingresa tu apellido'variant='standard'fullWidth required/>
+            </Grid>
+            <Grid className={classes.grid}>
+            <TextField type='email' label="Tu e-mail" placeholder='Ingresa tu mail'variant='standard'fullWidth required/>
+            </Grid>
+            <Grid className={classes.grid}>
+            <TextField label="Escribe un mensaje" multiline rows={8} placeholder='escribe tu mensaje'variant='outlined'fullWidth required/>
+            </Grid>
+            </Grid>
+            <Grid >
+              <Button type='submit' variant="contained" component="a" href="mailto:rgcivitt@gmail.com" fullWidth>Submit</Button>
+            </Grid>
+          </form>
+       </Paper>
+
+
+    2613055348 Raul Lucero

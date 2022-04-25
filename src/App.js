@@ -4,7 +4,10 @@ import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills";
 import MyWork from "./Components/MyWork";
+import Footer from "./Components/Footer";
+
 import { purple } from "@material-ui/core/colors";
+
 
 const theme = createMuiTheme({
   palette:{
@@ -23,8 +26,10 @@ function App() {
      <Skills title ="MIS HABILIDADES" id="skills" dark={false}/>
      <MyWork title ="MIS PROYECTOS" id="work" dark={true}/>
      <Contact title ="CONTACTO" id="contact" dark={false}/>
-    </div>
+     <Footer />
+      </div>
     </MuiThemeProvider>
+    
     
   );
 }

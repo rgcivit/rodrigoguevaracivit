@@ -28,19 +28,17 @@ const About = ({title,dark, id}) => {
             typeSpeed={100}
             />
             <Typography variant="h6" color="textSecondary">
-            Soy Full Stack Web Developer,
-            puedo trabajar con las siguientes
-            tecnologías: React, Redux
-            ,Express , Sequelize, CSS, HTML y
-            Postgres. Me siento capacitado
-            para desarrollar proyectos en
-            grupo o individualmente.
-            Me considero una persona
-            proactiva, siempre con ganas de
-            seguir aprendiendo nuevas
-            tecnologías. Me gusta mucho trabajar en grupo y poder
-            aprender lo que mi equipo puede aportarme, como así también 
-            poder aportar mis conocimientos.
+            Im Full Stack Developer oriented mainly to Back-end, 
+            being able to work in Front-end without any problem.
+             I can work with the following technologies: React, Redux, Express,
+              Sequelize and Postgres. I feel qualified to develop group projects and 
+              thus be able to contribute everything I have learned so far.
+
+            One of the greatest passions in my life has been technology, 
+            so I really enjoy being able to work in this community, and always 
+            with the objective of being able to grow in all aspects related to it. 
+            Doing courses, either self-taught or through companies; as well as, 
+            learning from my colleagues and contributing what is necessary from my knowledge.
             </Typography>
           </CardContent>
           <CardActions>
