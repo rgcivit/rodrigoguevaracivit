@@ -28,16 +28,16 @@ const About = ({title,dark, id}) => {
             typeSpeed={100}
             />
             <Typography variant="h6" color="textSecondary">
-            Im Full Stack Developer oriented mainly to Back-end, 
+            Im FullStack Web Developer, oriented mainly to Back-end, 
             being able to work in Front-end without any problem.
-             I can work with the following technologies: React, Redux, Express,
-              Sequelize and Postgres. I feel qualified to develop group projects and 
+             I can work with the following technologies: React, Redux, Express,CSS, HTML, Node.js,  Firebase,
+              Heroku, Git, Github, MaterialUI,  Sequelize and Postgres. I feel qualified to develop group projects and 
               thus be able to contribute everything I have learned so far.
 
             One of the greatest passions in my life has been technology, 
             so I really enjoy being able to work in this community, and always 
             with the objective of being able to grow in all aspects related to it. 
-            Doing courses, either self-taught or through companies; as well as, 
+            Doing courses either self-taught or through companies; as well as, 
             learning from my colleagues and contributing what is necessary from my knowledge.
             </Typography>
           </CardContent>
