@@ -62,7 +62,7 @@ const Technologies = () => {
     ]
 
   return (
-    <Timeline position='center' className={classes.timeline}>
+    <Timeline position='left' className={classes.timeline}>
       {
          skills.map(({  src,title,stars},index) =>(
             <TimelineItem key={index}>
@@ -90,13 +90,12 @@ const Technologies = () => {
 
 const useStyles = makeStyles((theme) =>({
     timeline: {
-        transform: "rotate(-90deg)",
+       
         
       },
     customlogo:{
         width:"60px",
-        transform:"rotate(90deg)",
-        paddingInlineStart:"15px",
+        
   
     },
     paper:{
