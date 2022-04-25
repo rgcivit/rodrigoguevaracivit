@@ -60,7 +60,7 @@ const Contact = ({title,dark, id}) => {
             <TextField label="Subject" placeholder='Ingresa tu primer nombre'variant='standard' name='subject' fullWidth required/>
             </Grid>
             <Grid className={classes.grid}  >
-            <TextField label="Tu nombre" placeholder='Ingresa tu primer nombre'variant='standard' name='name' fullWidth required/>
+            <TextField label="Tu nombre" placeholder='Ingresa el asunto'variant='standard' name='name' fullWidth required/>
             </Grid>
             <Grid className={classes.grid}  >
             <TextField label="Tu apellido" placeholder='Ingresa tu apellido'variant='standard' name='lastname' fullWidth required/>
