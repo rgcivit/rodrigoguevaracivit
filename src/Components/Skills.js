@@ -7,7 +7,7 @@ const Skills = ({title,dark, id}) => {
   return (
     <div className={`${classes.section} ${dark && classes.sectiondark}`}>
      <div className={classes.sectioncontent} id={id}>
-       <Typography variant ="h4">{title}</Typography>
+       <Typography variant ="h3">{title}</Typography>
        <Technologies/>
      </div>
     </div>
@@ -16,7 +16,8 @@ const Skills = ({title,dark, id}) => {
 
 const useStyles = makeStyles((theme) =>({
     section:{
-       minHeight: "100vh"
+       minHeight: "100vh",
+       fonfamily:"'Roboto', sans-serif",
     },
     sectiondark: {
        background: "#333",
@@ -24,10 +25,14 @@ const useStyles = makeStyles((theme) =>({
     },
     sectioncontent:{
       marginTop: theme.spacing(3),
-      "& h4":{
+      
+      "& h3":{
         marginBottom:theme.spacing(6),
         marginLeft: theme.spacing(3),
-        margin: theme.spacing(1)
+        margin: theme.spacing(1),
+        fontFamily:'body', 
+       
+       
       }
     }
   }))

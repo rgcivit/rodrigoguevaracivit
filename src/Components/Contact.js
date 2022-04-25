@@ -1,12 +1,11 @@
 import { Button, Card, CardMedia, Grid, Link, makeStyles,Paper,Radio, TextField,Input
 , Typography } from '@material-ui/core';
-import { purple } from '@material-ui/core/colors';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
-import React, { useState } from 'react'
 
 
 
@@ -21,8 +20,10 @@ const Contact = ({title,dark, id}) => {
     }, (error) => {
       console.log(error.text);
     });
-    alert('Mensaje enviado');
     e.target.reset();
+    Swal.fire({
+      title: 'Mensaje eviado, ¡Gracias!',
+    })
   }
   
   return (
@@ -131,9 +132,13 @@ const useStyles = makeStyles((theme) =>({
   }
 },
     sectioncontent:{
-      maxWidth:"70vw",
+      maxWidth:"80vw",
+      
+      "& h3":{
+        marginLeft:theme.spacing(8),
         
     },
+  },
     titleandchoices:{
       "& h5":{
         marginTop:theme.spacing(1),

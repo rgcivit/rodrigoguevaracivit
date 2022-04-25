@@ -2,6 +2,7 @@ import React from 'react'
 import html from '../images/html.png'
 import css from '../images/css.png'
 import js from '../images/js.png'
+import materialui from '../images/materialui.png'
 import react2 from '../images/react2.png'
 import postgres from '../images/postgres.png'
 import redux from '../images/redux.png'
@@ -19,13 +20,13 @@ const Technologies = () => {
           
             src:html,
             title:"HTML 5",
-            stars:3,
+            stars:4,
         },
         {
             
             src:css,
             title:"CSS 3",
-            stars:3,
+            stars:4,
         },
         {
             
@@ -51,11 +52,17 @@ const Technologies = () => {
             title:"React Redux",
             stars:4,
         },
+        {
+            
+            src:materialui,
+            title:"Material UI",
+            stars:3,
+        },
         
     ]
 
   return (
-    <Timeline position='left'>
+    <Timeline position='center' className={classes.timeline}>
       {
          skills.map(({  src,title,stars},index) =>(
             <TimelineItem key={index}>
@@ -82,12 +89,18 @@ const Technologies = () => {
 }
 
 const useStyles = makeStyles((theme) =>({
+    timeline: {
+        transform: "rotate(-90deg)",
+        
+      },
     customlogo:{
         width:"60px",
+        transform:"rotate(90deg)",
+        paddingInlineStart:"15px",
   
     },
     paper:{
-        padding:"6px 16px",
+        padding:"16px 16px",
         maxWidth:"200px",
     }
   }))
