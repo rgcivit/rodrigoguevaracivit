@@ -161,8 +161,9 @@ const useStyles = makeStyles((theme) =>({
         marginTop:theme.spacing(0),
         marginLeft: theme.spacing(15),
         [theme.breakpoints.down('sm')]: {
-          marginLeft: theme.spacing(12),
+          marginRigth: theme.spacing(1),
           marginTop: theme.spacing(0),
+        
       }
     },
       github:{
@@ -184,7 +185,7 @@ const useStyles = makeStyles((theme) =>({
         marginLeft: theme.spacing(11),
         [theme.breakpoints.down('sm')]: {
           marginTop: theme.spacing(0.5),
-          marginLeft: theme.spacing(15),
+          marginLeft: theme.spacing(10),
       }
     },
     media3:{
