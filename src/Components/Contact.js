@@ -21,6 +21,7 @@ const Contact = ({title,dark, id}) => {
     }, (error) => {
       console.log(error.text);
     });
+    alert('Mensaje enviado');
     e.target.reset();
   }
   
@@ -73,7 +74,7 @@ const Contact = ({title,dark, id}) => {
             </Grid>
             </Grid>
             <Grid className={classes.button} >
-              <button type='submit'  value='send Message'>Submit</button>
+              <button type='submit'  value='send Message' >Submit</button>
             </Grid>
           </form>
        </Paper>
