@@ -38,6 +38,11 @@ const Navbar = () => {
           text:"Contacto",
           icon:<ContactMailTwoToneIcon fontSize='large'className={classes.contact} />
       },
+      {
+        id:"courses",
+        text:"CURSOS",
+        icon:<InfoTwoToneIcon fontSize='large' className={classes.about}/>
+    },
       ]
       const scrollToTop =()=>{
           scroll.scrollToTop()
