@@ -26,7 +26,6 @@ function App() {
      <Skills title ="MIS HABILIDADES" id="skills" dark={false}/>
      <MyWork title ="MIS PROYECTOS" id="work" dark={true}/>
      <Contact title ="CONTACTO" id="contact" dark={false}/>
-     <Courses title ="CURSOS" id="courses" dark={true}/>
      <Footer />
       </div>
     </MuiThemeProvider>

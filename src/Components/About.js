@@ -114,12 +114,12 @@ const useStyles = makeStyles((theme) =>({
       },
     },
     pdfbutton:{
-      position:"relative",
-      
+      position:"absolute",
+      bottom:"0.15rem",
+      right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        
-        top:5,
-        
+        top:"1rem",
+        right:"3rem",
       },
       backgroundColor:"tomato",
       padding: theme.spacing(3),
@@ -141,15 +141,13 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.15rem",
       right:"18rem",
       [theme.breakpoints.down("sm")]:{
-        position:"relative",
         bottom:"1rem",
         right:"1rem",
-        top:"13rem",
       },
-      backgroundColor:"red",
+      backgroundColor:"blue",
       padding: theme.spacing(3),
       "&:hover":{
-        backgroundColor:"red",
+        backgroundColor:"#fff",
 
       },
       "& a":{
