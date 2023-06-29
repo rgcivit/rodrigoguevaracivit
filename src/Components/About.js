@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme) =>({
       height:"70vh",
       display:"flex",
       objectFit:"cover",
-      marginTop: theme.spacing(6),
+      marginTop: theme.spacing(5),
       position:"relative",
 
     },
