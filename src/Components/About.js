@@ -114,13 +114,13 @@ const useStyles = makeStyles((theme) =>({
       },
     },
     pdfbutton:{
-      position:"absolute",
+      position:"relative",
       bottom:"0.15rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"1rem",
-        top:"5rem",
-        right:"3rem",
+        
+        top:0,
+        
       },
       backgroundColor:"tomato",
       padding: theme.spacing(3),
