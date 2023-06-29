@@ -118,9 +118,7 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.15rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-       position:'fixed',
-       bottom:'0.15rem',
-       right:"4rem",
+      
       },
       backgroundColor:"tomato",
       padding: theme.spacing(3),
@@ -142,8 +140,7 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.15rem",
       right:"18rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"1rem",
-        right:"1rem",
+       
       },
       backgroundColor:"blue",
       padding: theme.spacing(3),
@@ -155,7 +152,7 @@ const useStyles = makeStyles((theme) =>({
         color:"#fff",
         textDecoration:"none",
         fontWeight:900,
-        top:'5',
+        
       },
       "& a:hover":{
         color:"tomato"
