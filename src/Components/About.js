@@ -117,8 +117,8 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.25rem",
       right:"2rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"2rem",
-        right:"3rem",
+        position:"absolute",
+        padding: theme.spacing(0.3),
       },
       backgroundColor:"tomato",
       padding: theme.spacing(2),
@@ -140,8 +140,9 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.25rem",
       right:"13rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"3rem",
-        right:"1rem",
+       position:"absolute",
+       padding: theme.spacing(0.3),
+       right:"10rem",
       },
       backgroundColor:"blue",
       padding: theme.spacing(2),
