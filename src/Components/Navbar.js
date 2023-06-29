@@ -41,7 +41,7 @@ const Navbar = () => {
       {
         id:"courses",
         text:"CURSOS",
-        icon:<InfoTwoToneIcon fontSize='large' className={classes.about}/>
+        icon:<InfoTwoToneIcon fontSize='large' className={classes.courses}/>
     },
       ]
       const scrollToTop =()=>{
