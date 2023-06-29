@@ -2,6 +2,7 @@ import { Button, Card, CardActions, CardContent, CardMedia, makeStyles, Typograp
 import rgcivitfoto from '../images/rgcivitfoto.jpeg'
 import TypeWriterEffect from "react-typewriter-effect"
 import rgcivitcv from "../images/rgcivitcv.pdf"
+import CVrgciviteng from "../images/CVrgciviteng.pdf"
 
 
 const About = ({title,dark, id}) => {
@@ -45,7 +46,14 @@ const About = ({title,dark, id}) => {
               <Button variant="contained" 
               className={classes.pdfbutton}>
                 <a href={rgcivitcv}download>
-                Download C.V
+                  Download C.V
+
+                </a>
+                </Button>
+                <Button variant="contained" 
+              className={classes.pdfbutton}>
+                <a href={CVrgciviteng}download>
+                  Download C.V
 
                 </a>
                 </Button>
