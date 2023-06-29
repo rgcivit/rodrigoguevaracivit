@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.15rem",
       right:"18rem",
       [theme.breakpoints.down("sm")]:{
-       position:"absolute",
+       position:"fixed",
        
        bottom:"3rem",
       },
