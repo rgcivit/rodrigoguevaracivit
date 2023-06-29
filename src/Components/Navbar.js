@@ -150,7 +150,7 @@ const useStyles = makeStyles((theme) =>({
         color:"red"
     },
     courses:{
-        color:"#ffcc00",
+        color:"green",
     },
     menu:{
         
