@@ -46,15 +46,15 @@ const About = ({title,dark, id}) => {
               <Button variant="contained" 
               className={classes.pdfbutton}>
                 <a href={rgcivitcv}download>
-                  Download C.V
-                  Spanish
+                  Spanish C.V
+                  
                 </a>
                 </Button>
                 <Button variant="contained" 
               className={classes.pdfbutton2}>
                 <a href={CVrgciviteng}download>
-                  Download C.V
-                  English
+                  English C.V
+                  
 
                 </a>
                 </Button>
@@ -114,14 +114,14 @@ const useStyles = makeStyles((theme) =>({
     },
     pdfbutton:{
       position:"absolute",
-      bottom:"0.15rem",
-      right:"4rem",
+      bottom:"0.25rem",
+      right:"2rem",
       [theme.breakpoints.down("sm")]:{
         bottom:"2rem",
         right:"3rem",
       },
       backgroundColor:"tomato",
-      padding: theme.spacing(3),
+      padding: theme.spacing(2),
       "&:hover":{
         backgroundColor:"#fff",
 
@@ -137,14 +137,14 @@ const useStyles = makeStyles((theme) =>({
     },
     pdfbutton2:{
       position:"absolute",
-      bottom:"0.15rem",
-      right:"18rem",
+      bottom:"0.25rem",
+      right:"13rem",
       [theme.breakpoints.down("sm")]:{
-        bottom:"2rem",
-        right:"3rem",
+        bottom:"3rem",
+        right:"1rem",
       },
       backgroundColor:"blue",
-      padding: theme.spacing(3),
+      padding: theme.spacing(2),
       "&:hover":{
         backgroundColor:"#fff",
 
