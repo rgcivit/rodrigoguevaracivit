@@ -149,6 +149,9 @@ const useStyles = makeStyles((theme) =>({
     contact:{
         color:"red"
     },
+    courses:{
+        color:"#ffcc00",
+    },
     menu:{
         
         [theme.breakpoints.down("sm")]:{
