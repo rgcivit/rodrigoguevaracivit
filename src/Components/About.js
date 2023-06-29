@@ -121,7 +121,7 @@ const useStyles = makeStyles((theme) =>({
       top:"3rem",
       },
       backgroundColor:"tomato",
-      padding: theme.spacing(3),
+      padding: theme.spacing(1),
       "&:hover":{
         backgroundColor:"#fff",
 
