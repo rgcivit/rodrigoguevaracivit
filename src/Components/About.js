@@ -144,7 +144,7 @@ const useStyles = makeStyles((theme) =>({
        position:"fixed",
        bottom:"5rem",
        right:"7rem",
-       left:"4rem",
+       
       },
       backgroundColor:"blue",
       padding: theme.spacing(3),
