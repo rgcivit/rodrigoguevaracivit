@@ -143,7 +143,7 @@ const useStyles = makeStyles((theme) =>({
       [theme.breakpoints.down("sm")]:{
        position:"fixed",
        bottom:"5rem",
-       right:"9rem",
+       right:"10rem",
       },
       backgroundColor:"blue",
       padding: theme.spacing(3),
