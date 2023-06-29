@@ -118,12 +118,10 @@ const useStyles = makeStyles((theme) =>({
       bottom:"0.15rem",
       right:"4rem",
       [theme.breakpoints.down("sm")]:{
-        position:"relative",
-        bottom:"10rem",
-        right:"3rem",
+        top:0,
       },
       backgroundColor:"tomato",
-      padding: theme.spacing(9),
+      padding: theme.spacing(3),
       "&:hover":{
         backgroundColor:"#fff",
 
