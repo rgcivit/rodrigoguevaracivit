@@ -47,13 +47,14 @@ const About = ({title,dark, id}) => {
               className={classes.pdfbutton}>
                 <a href={rgcivitcv}download>
                   Download C.V
-
+                  Spanish
                 </a>
                 </Button>
                 <Button variant="contained" 
               className={classes.pdfbutton}>
                 <a href={CVrgciviteng}download>
-                  Download C.V.E
+                  Download C.V
+                  English
 
                 </a>
                 </Button>
