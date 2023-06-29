@@ -120,6 +120,7 @@ const useStyles = makeStyles((theme) =>({
       [theme.breakpoints.down("sm")]:{
        position:'fixed',
        bottom:'0.15rem',
+       right:"4rem",
       },
       backgroundColor:"tomato",
       padding: theme.spacing(3),
