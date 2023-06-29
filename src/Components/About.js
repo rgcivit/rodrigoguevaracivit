@@ -15,7 +15,7 @@ const About = ({title,dark, id}) => {
           <CardMedia image={rgcivitfoto}className={classes.media} title="picture"/>
           <CardContent className={classes.cardcontent}>
             <TypeWriterEffect
-            text="Hola, mi nombre es Rodrigo Guevara Civit"
+            text="Hi!, my name is Rodrigo Guevara Civit"
             textStyle={{fontSize:"2rem", fontWeight:"700px", color:"tomato"}}
             startDelay={100}
             cursorColor="white"

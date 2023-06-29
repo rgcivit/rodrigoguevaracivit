@@ -26,7 +26,7 @@ export default function Footer() {
  const useStyles = makeStyles((theme) =>({
     container:{
         alignItems:"center",
-        marginLeft:"6vw",
+        marginLeft:"66vw",
         paddingBottom:"2vh",
         fontFamily:"'Roboto', sans-serif",
         paddingTop:"8vh",
