@@ -38,7 +38,7 @@ const About = ({title,dark, id}) => {
             so I really enjoy being able to work in this community, and always 
             with the objective of being able to grow in all aspects related to it. 
             Doing courses either self-taught or through companies; as well as, 
-            learning from my colleagues and contributing what is necessary from my knowledge thanks.
+            learning from my colleagues and contributing what is necessary from my knowledge.
             </Typography>
           </CardContent>
           <CardActions>
