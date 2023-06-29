@@ -54,8 +54,8 @@ const About = ({title,dark, id}) => {
                 <Button variant="contained" 
               className={classes.pdfbutton2}>
                 <a href={CVrgciviteng}download>
-                  Download C.V
-                  (English)
+                  Download C.V <br> (English)  </br>
+                  
 
                 </a>
                 </Button>
