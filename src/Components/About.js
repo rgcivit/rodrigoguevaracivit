@@ -51,7 +51,7 @@ const About = ({title,dark, id}) => {
                 </a>
                 </Button>
                 <Button variant="contained" 
-              className={classes.pdfbutton}>
+              className={classes.pdfbutton2}>
                 <a href={CVrgciviteng}download>
                   Download C.V.E
 
@@ -115,6 +115,29 @@ const useStyles = makeStyles((theme) =>({
       position:"absolute",
       bottom:"0.15rem",
       right:"4rem",
+      [theme.breakpoints.down("sm")]:{
+        bottom:"2rem",
+        right:"1rem",
+      },
+      backgroundColor:"tomato",
+      padding: theme.spacing(3),
+      "&:hover":{
+        backgroundColor:"#fff",
+
+      },
+      "& a":{
+        color:"#fff",
+        textDecoration:"none",
+        fontWeight:900,
+      },
+      "& a:hover":{
+        color:"tomato"
+      }
+    },
+    pdfbutton2:{
+      position:"absolute",
+      bottom:"0.15rem",
+      right:"2rem",
       [theme.breakpoints.down("sm")]:{
         bottom:"2rem",
         right:"1rem",
