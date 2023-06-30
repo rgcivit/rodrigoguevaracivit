@@ -77,8 +77,9 @@ const useStyles = makeStyles((theme) =>({
        color: "#fff",
     },
     sectioncontent:{
-      maxWidth:"80vw",
+      
       margin:"0 auto",
+      
      " & h3":{
       [theme.breakpoints.down("sm")]:{
         fontSize:"3rem",
