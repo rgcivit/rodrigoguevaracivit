@@ -29,7 +29,7 @@ const About = ({title,dark, id}) => {
             typeSpeed={100}
             />
             <Typography variant="h6" color="textSecondary">
-            Im FullStack Web Developer, oriented mainly to Back-end, 
+           1 Im FullStack Web Developer, oriented mainly to Back-end, 
             being able to work in Front-end without any problem.
              I can work with the following technologies: React, Redux, Express,CSS, HTML, Node.js,  Firebase,
               Heroku, Git, Github, MaterialUI,  Sequelize and Postgres. I feel qualified to develop group projects and 
