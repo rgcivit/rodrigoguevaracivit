@@ -33,11 +33,7 @@ const Navbar = () => {
           text:"Mis Proyectos",
           icon:<BuildTwoToneIcon fontSize='large' className={classes.work} />
       },
-      {
-        id:"cursos",
-        text:"Cursos",
-        icon:<ContactMailTwoToneIcon fontSize='large'className={classes.cursos} />
-    },
+   
       {
           id:"contact",
           text:"Contacto",
