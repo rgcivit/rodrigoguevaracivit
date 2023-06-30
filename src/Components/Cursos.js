@@ -61,7 +61,7 @@ const Cursos = ({title,dark, id}) => {
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
-      
+       Width:"100"
     },
     sectiondark: {
        background: "#333",
@@ -70,7 +70,8 @@ const useStyles = makeStyles((theme) =>({
     sectioncontent:{
       maxWidth:"100vw",
       margin:"3",
-      height:"125vh",
+      height:"120vw",
+      
      " & h3":{
       [theme.breakpoints.down("sm")]:{
         fontSize:"3rem",
@@ -118,8 +119,8 @@ const useStyles = makeStyles((theme) =>({
         width:"400px", 
         marginTop: theme.spacing(5),
         position:"relative",
-        left:"70rem",
-        bottom:"109.6rem"
+        left:"2rem",
+        bottom:"50rem"
   
       },
       card6:{
@@ -127,8 +128,8 @@ const useStyles = makeStyles((theme) =>({
         width:"400px", 
         marginTop: theme.spacing(5),
         position:"relative",
-        left:"70rem",
-        bottom:"109.6rem"
+        left:"36rem",
+        bottom:"77.5rem"
   
       },
     
