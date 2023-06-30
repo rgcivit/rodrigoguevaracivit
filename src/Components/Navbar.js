@@ -34,10 +34,16 @@ const Navbar = () => {
           icon:<BuildTwoToneIcon fontSize='large' className={classes.work} />
       },
       {
+        id:"cursos",
+        text:"Cursos",
+        icon:<ContactMailTwoToneIcon fontSize='large'className={classes.cursos} />
+    },
+      {
           id:"contact",
           text:"Contacto",
           icon:<ContactMailTwoToneIcon fontSize='large'className={classes.contact} />
       },
+     
      
       ]
       const scrollToTop =()=>{
