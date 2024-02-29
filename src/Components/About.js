@@ -3,7 +3,7 @@ import rgcivitfoto from '../images/rgcivitfoto.jpeg'
 import TypeWriterEffect from "react-typewriter-effect"
 //import rgcivitcv from "../images/rgcivitcv.pdf"
 import CVrgciviteng from "../images/CVrgciviteng.pdf"
-import rgcivitcv2 from "../images/CV Rodrigo Guevara Civit.pdf"
+import rgcivitcv2 from "../images/rgcivitcvesp.pdf"
 
 
 const About = ({title,dark, id}) => {
