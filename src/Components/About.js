@@ -1,8 +1,9 @@
 import { Button, Card, CardActions, CardContent, CardMedia, makeStyles, Typography } from '@material-ui/core';
 import rgcivitfoto from '../images/rgcivitfoto.jpeg'
 import TypeWriterEffect from "react-typewriter-effect"
-import rgcivitcv from "../images/rgcivitcv.pdf"
+//import rgcivitcv from "../images/rgcivitcv.pdf"
 import CVrgciviteng from "../images/CVrgciviteng.pdf"
+import rgcivitcv2 from "../images/CV Rodrigo Guevara Civit.pdf"
 
 
 const About = ({title,dark, id}) => {
@@ -45,7 +46,7 @@ const About = ({title,dark, id}) => {
           <CardActions>
               <Button variant="contained" 
               className={classes.pdfbutton}>
-                <a href={rgcivitcv}download>
+                <a href={rgcivitcv2}download>
                   Spanish C.V
                   
                 </a>
@@ -65,20 +66,23 @@ const About = ({title,dark, id}) => {
   )
 }
 
-
-
 const useStyles = makeStyles((theme) =>({
     section:{
        minHeight: "100vh",
+       margin:"5 auto",
       
+       
     },
     sectiondark: {
        background: "#333",
        color: "#fff",
+       
     },
     sectioncontent:{
-      
+      maxWidth: "80vw",
       margin:"0 auto",
+      
+      
       
      " & h3":{
       [theme.breakpoints.down("sm")]:{
@@ -114,9 +118,11 @@ const useStyles = makeStyles((theme) =>({
       },
     },
     pdfbutton:{
-      position:"absolute",
-      bottom:"0.25rem",
-      right:"2rem",
+      display:"flex",
+      justifyContent:"center",
+      marginTop:theme.spacing(70),
+      marginRight:"15rem",
+      
       [theme.breakpoints.down("sm")]:{
         position:"absolute",
         padding: theme.spacing(0.1),
@@ -138,12 +144,15 @@ const useStyles = makeStyles((theme) =>({
     },
     pdfbutton2:{
       position:"absolute",
-      bottom:"0.25rem",
-      right:"13rem",
+      display:"flex",
+      justifyContent:"center",
+      marginTop:theme.spacing(70),
+      marginRight:"40rem",
+     
       [theme.breakpoints.down("sm")]:{
        position:"absolute",
        padding: theme.spacing(0.1),
-       right:"10rem",
+       
       },
       backgroundColor:"blue",
       padding: theme.spacing(2),
@@ -155,6 +164,7 @@ const useStyles = makeStyles((theme) =>({
         color:"#fff",
         textDecoration:"none",
         fontWeight:900,
+        
       },
       "& a:hover":{
         color:"tomato"

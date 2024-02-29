@@ -30,7 +30,10 @@ const MyWork = ({title,dark, id}) => {
 
 const useStyles = makeStyles((theme) =>({
   section:{
-     minHeight: "100vh"
+     minHeight: "100vh",
+   
+     
+
   },
   sectiondark: {
      background: "#333",
@@ -42,15 +45,15 @@ const useStyles = makeStyles((theme) =>({
      padding: theme.spacing(4),
     
   },
-  grid:{
+  grid: {
     marginTop: theme.spacing(5),
-    marginLeft:"10rem",
-    [theme.breakpoints.down("sm")]:{
-      marginLeft:"0rem",
-      displayflex: "auto",
-    }
-
-  }, 
+    marginLeft: "auto", // Ajuste para centrar horizontalmente
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "0rem",
+      display: "flex",
+      justifyContent: "center", // Ajuste adicional para centrar horizontalmente en dispositivos móviles
+    },
+  },
   card:{
     
     maxWidth:375,
