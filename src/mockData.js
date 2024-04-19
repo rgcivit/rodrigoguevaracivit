@@ -16,6 +16,12 @@ const mockData =[
         link:"https://pi-videogames-five.vercel.app/Home"
         
     },
+    {
+        title:"Tienda Selecta",
+        image:tiendaselecta,
+        link:"https://tienda-selecta.vercel.app/"
+        
+    },
 ]
 
 export default mockData;
