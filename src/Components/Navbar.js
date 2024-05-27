@@ -51,7 +51,7 @@ const Navbar = () => {
       <Toolbar className={classes.toolbar}>
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
           <img style={{height:'80px', widht:'100%'}} src={rgclogo} className={classes.logo} onClick={scrollToTop} alt="failed to load"/>{"  "}
-            RGC
+            
           </Typography>
 
         <List className={classes.menu}>
@@ -130,6 +130,7 @@ const useStyles = makeStyles((theme) =>({
         width:"10rem",
         "&:hover":{
             cursor: "pointer"
+            
 
         }
         

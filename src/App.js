@@ -23,10 +23,10 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <div className={classes.root}>
      <Navbar />
-     <About title ="ACERCA DE MI"  id="about" dark={true} />
-     <Skills title ="MIS HABILIDADES" id="skills" dark={false}/>
-     <MyWork title ="MIS PROYECTOS" id="work" dark={true}/>
-     <Contact title ="CONTACTO" id="contact" dark={false}/>
+     <About title ="ACERCA DE MI"  id="about" dark={false} />
+     <Skills title ="MIS HABILIDADES" id="skills" dark={true}/>
+     <MyWork title ="MIS PROYECTOS" id="work" dark={false}/>
+     <Contact title ="CONTACTO" id="contact" dark={true}/>
      
      
      <Footer />

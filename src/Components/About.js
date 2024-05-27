@@ -42,8 +42,7 @@ const About = ({title,dark, id}) => {
             Doing courses either self-taught or through companies; as well as, 
             learning from my colleagues and contributing what is necessary from my knowledge.
             </Typography>
-          </CardContent>
-          <CardActions>
+            <CardActions>
               <Button variant="contained" 
               className={classes.pdfbutton}>
                 <a href={rgcivitcv2}download>
@@ -60,6 +59,8 @@ const About = ({title,dark, id}) => {
                 </a>
                 </Button>
           </CardActions>
+          </CardContent>
+         
        </Card>
      </div>
     </div>
@@ -79,7 +80,8 @@ const useStyles = makeStyles((theme) =>({
        
     },
     sectioncontent:{
-      maxWidth: "80vw",
+      maxWidth: "100vw",
+      
       margin:"0 auto",
       
       
@@ -92,10 +94,10 @@ const useStyles = makeStyles((theme) =>({
      }
     },
     card:{
-      height:"70vh",
+      height:"100vh",
       display:"flex",
       objectFit:"cover",
-      marginTop: theme.spacing(5),
+      marginTop: theme.spacing(0),
       position:"relative",
 
     },
@@ -118,17 +120,19 @@ const useStyles = makeStyles((theme) =>({
       },
     },
     pdfbutton:{
+      position:"flex",
       display:"flex",
+      marginTop:theme.spacing(15),
       justifyContent:"center",
-      marginTop:theme.spacing(70),
-      marginRight:"15rem",
+      marginRight:"5rem",
       
       [theme.breakpoints.down("sm")]:{
-        position:"absolute",
+        position:"auto",
         padding: theme.spacing(0.1),
+        
       },
       backgroundColor:"tomato",
-      padding: theme.spacing(2),
+      padding: theme.spacing(1),
       "&:hover":{
         backgroundColor:"#fff",
 
@@ -143,19 +147,19 @@ const useStyles = makeStyles((theme) =>({
       }
     },
     pdfbutton2:{
-      position:"absolute",
+      position:"flex",
       display:"flex",
       justifyContent:"center",
-      marginTop:theme.spacing(70),
-      marginRight:"40rem",
+      marginTop:theme.spacing(15),
+      marginRight:"0rem",
      
       [theme.breakpoints.down("sm")]:{
-       position:"absolute",
+       position:"auto",
        padding: theme.spacing(0.1),
        
       },
       backgroundColor:"blue",
-      padding: theme.spacing(2),
+      padding: theme.spacing(1),
       "&:hover":{
         backgroundColor:"#fff",
 
