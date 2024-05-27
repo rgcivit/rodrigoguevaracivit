@@ -88,7 +88,7 @@ const useStyles = makeStyles((theme) =>({
       
      " & h3":{
       [theme.breakpoints.down("sm")]:{
-        fontSize:"13rem",
+        fontSize:"3rem",
       },
    
      }
