@@ -19,7 +19,8 @@ const mockData =[
     {
         title:"Tienda Selecta",
         image:tiendaselecta,
-        link:"https://tienda-selecta.vercel.app/"
+        link:"https://tienda-selecta.firebaseapp.com/"
+        
         
     },
 ]
